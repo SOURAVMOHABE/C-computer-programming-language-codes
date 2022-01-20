@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main (){
+	char mohabe='u', b='v';
+	printf("The value of mohabe is %c \n",mohabe);
+	printf("The value of b is %c",b);
+	return 0;
+}
