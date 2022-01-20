@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main (){
+	char letter;
+	printf("Enter the letter \n");
+	scanf("%c",&letter);
+	if(letter=='a'||letter=='e'||letter=='i'||letter=='o'||letter=='u'){
+		printf("This is vowel letter");
+	}
+	else{
+		printf("This is a constant letter");
+	}
+	return 0;
+}
