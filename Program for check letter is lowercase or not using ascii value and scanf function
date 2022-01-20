@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+	char letter;
+	printf("Enter the letter \n");
+	scanf("%c",&letter);
+	if(letter>=97 && letter<=122){
+		printf("It is a lowercase letter");
+	}
+	else{
+		printf("It is not a lowercase letter");
+	}
+	return 0;
+}
