@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<math.h> //Only used for find the exponential form
+int main (){
+	printf("The addition is %d \n",23+35);
+	printf("The subtraction is %d \n",35-23);
+	printf("The multiplication is %d \n",23*35);
+	printf("The division is %d \n",35/23);
+	printf("The modular is %d \n",90/23);
+	printf("The exopnential form is %f",pow(2,5));
+	return 0;
+}
