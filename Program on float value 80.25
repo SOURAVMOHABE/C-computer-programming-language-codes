@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main (){
+	float pavan=80.25;
+	printf("The value of pavan is %f",pavan);
+	return 0;
+}
