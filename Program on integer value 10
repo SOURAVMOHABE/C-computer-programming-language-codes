@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main (){
+	int sourav=10;
+	printf("The value of sourav is %d",sourav);
+	return 0;
+}
