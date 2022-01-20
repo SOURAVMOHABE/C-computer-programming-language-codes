@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main (){
+	char mohabe='u';
+	printf("The value of mohabe is %c",mohabe);
+	return 0;
+}
