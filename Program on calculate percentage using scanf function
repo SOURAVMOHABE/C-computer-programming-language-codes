@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main (){
+	int mathematics, chemistry, physics, english, hindi;
+	float percentage;
+	printf("Enter the marks of mathematics subject \n");
+	scanf("%d",&mathematics);
+	printf("Enter the marks of chemistry subject \n");
+	scanf("%d",&chemistry);
+	printf("Enter the marks of physics subject \n");
+	scanf("%d",&physics);
+	printf("Enter the marks of english subject \n");
+	scanf("%d",&english);
+	printf("Enter the marks of hindi subject \n");
+	scanf("%d",&hindi);
+	percentage= (mathematics+chemistry+physics+english+hindi)/5;
+	printf("Your percentage is %f",percentage);
+	return 0;
+}
