@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main (){
+	float pavan=80.25, ujjaval=11.11;
+	printf("The value of pavan is %f \n",pavan);
+	printf("The value of ujjaval is %f",ujjaval);
+	return 0;
+}
