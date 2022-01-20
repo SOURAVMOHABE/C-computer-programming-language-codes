@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main (){
+	float ujjaval=11.11;
+	printf("The value of ujjaval is %f",ujjaval);
+	return 0;
+}
