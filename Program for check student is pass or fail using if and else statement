@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(){
+	int mathematics, science, sanskrit, total;
+	printf("Enter the value of mathematics subject\n");
+	scanf("%d",&mathematics);
+	printf("Enter the value of science subject\n");
+	scanf("%d",&science);
+	printf("Enter the value of sanskrit subject\n");
+	scanf("%d",&sanskrit);
+	total=(mathematics+science+sanskrit)/3;
+	if(total>=40 && mathematics>=33 && science>=33 && sanskrit>=33){
+		printf("You are pass");
+	}
+	else{
+		printf("You are fail");
+	}
+	return 0;
+}
