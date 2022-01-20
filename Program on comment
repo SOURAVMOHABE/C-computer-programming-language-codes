@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main (){
+//	int a=5;
+//  float pavan=80.25;
+	char b='v';
+//	printf("The value of a is %d \n",a);
+//	printf("The value of pavan is %f \n",pavan);
+	printf("The value of b is %c",b);
+	return 0;
+}
