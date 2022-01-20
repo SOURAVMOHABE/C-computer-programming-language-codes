@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main (){
+	int a=5;
+	switch(a)
+	{
+		case 1:
+		printf("Hello 1");
+		case 2:
+		printf("Hello 2");
+		default:
+		printf("Not one and two");
+	}
+	return 0;
+}
