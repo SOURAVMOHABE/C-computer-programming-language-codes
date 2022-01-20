@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main (){
+	int value;
+	printf("Enter the value \n");
+	scanf("%d",&value);
+	printf("Divisibilty test %d",value%97);
+	return 0;
+}
